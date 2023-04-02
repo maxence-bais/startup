@@ -1,0 +1,292 @@
+/*Salut ! J'ai pas eu le temps de faire le responsive design. En plus a faire sur des menus c'est grave lonnng. Déso*/
+
+body{
+	background-color: #0A122A;
+	font-family: 'Nunito Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+
+
+.toptop{
+	align-items: center;
+	display: flex;
+	height: 70px;
+	margin: 0px auto;
+	padding: auto auto;
+	width: 85%;
+}
+
+.top{
+	align-items: center;
+	display: flex;
+	height: 50px;
+	margin: 0px auto;
+	padding: auto auto;
+	width: 85%;
+}
+
+.background{
+	background-image: url("images/tomorrowland.png");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*lieu toptop*/
+	.lieu{
+		color: white;
+		font-size: 14px;
+		width: 60%;
+	}
+
+/*liens toptop*/
+	.navtop{
+		width: 30%;
+		text-align: right;
+		margin-right: 15px;
+	}
+	.navtopa a{
+		display: inline-block;
+		background-color: #eee;
+		color: #333;
+	}
+	.navtopa{
+		color: #fdbd1f;
+		font-size: 14px;
+		transition: color 0.2s ease-in-out;
+		padding: 15px;
+	}
+	.navtopa:hover{
+		color: white;
+	}
+
+/*menu langues toptop*/
+	.langues{
+		display: inline-block;
+		color: #382633; 
+		width: 10%;
+		text-align: right;
+	}
+	.langues ul{
+		list-style: none;
+		margin: 0;
+		padding: 11px 11px;
+		display: none;
+		position: absolute;
+		z-index: 1;
+		background-color: white;
+		border-radius:20px;
+	}
+	.langues li{
+		display: block;
+		text-align: center;
+		background-color: white;
+		border-radius: 8px;
+	}
+	.langues li a{
+		display: block;
+		padding: 10px;
+		font-size: 14px;
+		color: #382633;
+	}
+	.langues:hover ul{
+		display: block;
+	}
+	.languesli:hover{
+		background-color: #382633;
+	}
+	.languesli:hover a{
+		color: white;
+	}
+
+/*logo top*/
+	.logo{
+		background-image: url("images/logo.png");
+		background-size: 200px;
+		width: 200px;
+		height: 70px;
+	}
+
+/*menu top*/
+	.menu{
+		width: 50%;
+	}
+	.lvl1{
+		color: white;
+		font-size: 15px;
+		display: inline-block;
+		text-align: left;
+		margin-right: 50px;
+	}
+	.lvl1 ul{
+		list-style: none;
+		margin: 0;
+		padding: 11px 11px;
+		display: none;
+		position: absolute;
+		z-index: 1;
+		background-color: white;
+		border-radius:20px;
+	}
+	.lvl1 li{
+		display: block;
+		text-align: center;
+		background-color: white;
+		padding: 1px 35px;
+		border-radius: 8px;
+	}
+	.lvl1 li a{
+		display: block;
+		font-size: 14px;
+		color: #382633;
+	}
+	.lvl1:hover ul{
+		display: block;
+	}
+	.lvl2{
+		color: #382633;
+	}
+	.lvl2:hover{
+		background-color: #382633;
+		color: white;
+	}
+	.lvl2:hover a{
+		color: #382633;
+	}
+	#blue:hover{
+		background-color: #2acdd3;
+		color: #382633;
+	}
+	#purple:hover{
+		background-color: #9259ff;
+	}
+	#red:hover{
+		background-color: #ff3479;
+	}
+
+/*hours+ticket top*/
+
+	.hours{
+		position: right;
+		border: 1px #fdbd1f;
+		border-radius: 15px;
+		padding: 16px 16px;
+		text-align: right;
+		transition: background-color 0.2s ease-in-out;
+		margin-left: 40px;
+	}
+	.hours:hover{
+		background-color: white;
+	}
+	.hours a{
+		color: white;
+	}
+	.hours:hover a{
+		color: #382633;
+	}
+
+	.ticket{
+		position: right;
+		background-color: #fdbd1f;
+		border-radius: 15px;
+		padding: 16px 16px;
+		text-align: right;
+		transition: background-color 0.2s ease-in-out;
+		margin-left: 30px;
+	}
+	.ticket:hover{
+		background-color: white;
+	}
+
+/*textop*/
+
+	.texttop{
+	margin: 17% auto;
+	text-align: center;
+	width: 40%;
+	}
+	.texttop h1{
+		color: white;
+		font-size: 35px;
+	}
+
+/*main*/
+
+	.main{
+		margin-top: 800px;
+	}
+	.mainhours{
+		text-align: center;
+	}
+	.mainhours h2{
+		color: white;
+		font-size: 48px;
+		text-align: center;
+	}
+	.stage{
+		display: inline-block;
+		background-color: white;
+		box-shadow: black;
+		border-radius: 15px;
+		margin: auto 10px;
+		padding: 2px 10px;
+	}
+	.stage h4{
+		font-size: 24px;
+		text-align: center;
+	}
+	.stage h5{
+		font-size: 16px;
+		text-align: left;
+	}
+	h5{
+		background-color: white;
+		border-radius: 10px;
+		padding: 20px 40px;
+		transition: background-color 0.2s ease-in-out;
+	}
+	h5:hover{
+		background-color: #0A122A;
+		color: white;
+	}
+	#sb{
+		color: #2acdd3;
+	}
+	#sr{
+		color: #ff3479;
+	}
+	#sv{
+		color: #9259ff;
+	}
+	#sj{
+		color: #fdbd1f;
+	}
+
+/*pied site*/
+
+.pied{
+	text-align: center;
+	margin-top: 150px;
+}
+.logopied{
+	background-image: url("images/logo.png");
+	background-size: 400px;
+	width: 400px;
+	height: 140px;
+	display: block;
+	margin: 0 auto;
+}
+.piedtext{
+	margin-top: 30px;
+	color: white;
+	font-size: 14px;
+}
+
+
+
+
